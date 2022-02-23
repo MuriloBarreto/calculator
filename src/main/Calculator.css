@@ -5,5 +5,5 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(6, 48px);
+    grid-template-rows: 1fr,repeat(6, 48px);
 }
