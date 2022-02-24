@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css'
 
-export default props => {
+const button = props => {
     return (
     <button className={`
-        button 
+    button 
         ${props.operation ? 'operation' : ''}
         ${props.double ? 'double' : ''}
         ${props.triple ? 'triple' : ''}
@@ -13,3 +13,4 @@ export default props => {
     </button>
     )
 }
+export default button
